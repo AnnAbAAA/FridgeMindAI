@@ -7,7 +7,7 @@ from groq import Groq
 
 load_dotenv()
 
-client = Groq(api_key="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")
+client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
 DATA_FILE = "fridge.json"
 
