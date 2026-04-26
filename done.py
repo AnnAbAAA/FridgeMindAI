@@ -1,11 +1,8 @@
-# import streamlit as st
+import streamlit as st
 from datetime import date, datetime
 import json
 import os
-# # from dotenv import load_dotenv
-# from groq import Groq
-
-# load_dotenv()
+from groq import Groq
 
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
